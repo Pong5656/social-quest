@@ -2,7 +2,7 @@
   "name": "ติวแลนด์ สังคมศึกษา — A-Level 70 8-Bit Quest",
   "short_name": "ติวแลนด์ 8-Bit",
   "description": "เกมติวข้อสอบ A-Level สังคมศึกษา 5 สาระ สไตล์ 8-Bit แพลตฟอร์มเมอร์ เล่นออฟไลน์ได้",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#0f172a",

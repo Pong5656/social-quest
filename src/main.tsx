@@ -5,7 +5,8 @@ import App from "./App";
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
-    navigator.serviceWorker.register("/sw.js").catch(() => {
+    // ใช้ path สัมพัทธ์ → ทำงานได้ทั้งที่ root (Vercel) และ subpath (GitHub Pages)
+    navigator.serviceWorker.register("sw.js").catch(() => {
       // Offline cache registration ignored in unsupported environments
     });
   });

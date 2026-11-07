@@ -1,5 +1,5 @@
 const CACHE_NAME = 'tiwland-social-8bit-v1';
-const ASSETS_TO_CACHE = ['/', '/index.html', '/manifest.json'];
+const ASSETS_TO_CACHE = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
